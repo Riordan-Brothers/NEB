@@ -1,0 +1,18 @@
+<Device Model="DIN-AP3">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="TPS-2000L,TPS-2000," DeviceId="03" Name="deadend"/>
+      <Device Model="CSA-PWS10S-HUB" DeviceId="15"/>
+      <Device Model="CSM-QMTDC-256-2-CN" DeviceId="27"/>
+      <Device Model="CSM-QMTDC-256-2-CN" DeviceId="28"/>
+      <Device Model="CSM-QMTDC-256-2-CN" DeviceId="29"/>
+      <Device Model="CSM-QMTDC-256-2-CN" DeviceId="2A"/>
+      <Device Model="CSM-QMTDC-256-2-CN" DeviceId="2B"/>
+      <Device Model="CSM-QMTDC-256-2-CN" DeviceId="2C"/>
+      <Device Model="CSM-QMTDC-256-2-CN" DeviceId="2D"/>
+      <Device Model="CSM-QMTDC-256-2-CN" DeviceId="2E"/>
+      <Device Model="C2N-CBD-P" DeviceId="30" Name="lights"/>
+      <Device Model="C2N-CBD-P" DeviceId="31" Name="shades"/>
+      <Device Model="GLPAC-DIMFLV8" DeviceId="A2" Name="GLPAC-DIMFLV8 (Cresnet)"/>
+   </Network>
+   <Network Type="Ethernet" Id="02"/>
+</Device>

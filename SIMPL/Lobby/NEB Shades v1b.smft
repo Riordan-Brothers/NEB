@@ -1,0 +1,23 @@
+<Device Model="DIN-AP3">
+   <Network Type="Cresnet" Id="01"/>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="DIN-CENCN-2-POE,DIN-CENCN-2" DeviceId="08" Name="DIN-CENCN-2(-POE)">
+         <Network Type="Cresnet" Id="01"/>
+         <Network Type="Cresnet" Id="02">
+            <Device Model="CSA-PWS10S-HUB" DeviceId="03"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="04" Name="CSM-QMTDC-CN"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="05" Name="CSM-QMTDC-CN"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="06" Name="CSM-QMTDC-CN"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="07" Name="CSM-QMTDC-CN"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="08" Name="CSM-QMTDC-CN"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="09" Name="CSM-QMTDC-CN"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="0A" Name="CSM-QMTDC-CN"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="0B" Name="CSM-QMTDC-CN"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="0C" Name="CSM-QMTDC-CN"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="0D" Name="CSM-QMTDC-CN"/>
+            <Device Model="C2N-CBD-P" DeviceId="10"/>
+         </Network>
+      </Device>
+      <Device Model="Core3 UI XPanel" DeviceId="10" Name="XPanel 2.0 Smart Graphics"/>
+   </Network>
+</Device>
